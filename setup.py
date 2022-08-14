@@ -13,11 +13,11 @@ with open(reqs_file, "r") as input_file:
 
 from our_project.version import __version__
 
-link_to_use = "https://github.com/Nelson-Gon/project/archive/refs/tags/v"+__version__+".zip"
+link_to_use = "https://github.com/Nelson-Gon/pyshinymde/archive/refs/tags/v"+__version__+".zip"
 setup(name='project',
       version=__version__,
       description="Python Citations Generator",
-      url="http://www.github.com/Nelson-Gon/project",
+      url="http://www.github.com/Nelson-Gon/pyshinymde",
       download_url=link_to_use,
       author='Nelson Gonzabato',
       author_email='gonzabato@hotmail.com',

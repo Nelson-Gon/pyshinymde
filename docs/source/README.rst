@@ -3,8 +3,8 @@ Our Project: What the project does
 ==================================
 
 
-.. image:: https://badge.fury.io/pymde.svg
-   :target: https://pypi.python.org/pypi/pymde/
+.. image:: https://badge.fury.io/pyshinymde.svg
+   :target: https://pypi.python.org/pypi/pyshinymde/
    :alt: PyPI version fury.io
 
 
@@ -18,74 +18,74 @@ Our Project: What the project does
    :alt: Project Status
  
 
-.. image:: https://codecov.io/gh/Nelson-Gon/pymde/branch/main/graph/badge.svg
-   :target: https://codecov.io/gh/Nelson-Gon/pymde?branch=main
+.. image:: https://codecov.io/gh/Nelson-Gon/pyshinymde/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/Nelson-Gon/pyshinymde?branch=main
    :alt: Codecov
 
 
-.. image:: https://github.com/Nelson-Gon/pymde/workflows/Test-Package/badge.svg
-   :target: https://github.com/Nelson-Gon/pymde/workflows/Test-Package/badge.svg
+.. image:: https://github.com/Nelson-Gon/pyshinymde/workflows/Test-Package/badge.svg
+   :target: https://github.com/Nelson-Gon/pyshinymde/workflows/Test-Package/badge.svg
    :alt: Test-Package
 
 
-.. image:: https://img.shields.io/pypi/l/pymde.svg
-   :target: https://pypi.python.org/pypi/pymde/
+.. image:: https://img.shields.io/pypi/l/pyshinymde.svg
+   :target: https://pypi.python.org/pypi/pyshinymde/
    :alt: PyPI license
 
 
-.. image:: https://readthedocs.org/projects/pymde/badge/?version=latest
-   :target: https://pymde.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/pyshinymde/badge/?version=latest
+   :target: https://pyshinymde.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 
 
-.. image:: https://pepy.tech/badge/pymde
-   :target: https://pepy.tech/project/pymde
+.. image:: https://pepy.tech/badge/pyshinymde
+   :target: https://pepy.tech/project/pyshinymde
    :alt: Total Downloads
 
 
-.. image:: https://pepy.tech/badge/pymde/month
-   :target: https://pepy.tech/project/pymde
+.. image:: https://pepy.tech/badge/pyshinymde/month
+   :target: https://pepy.tech/project/pyshinymde
    :alt: Monthly Downloads
 
 
-.. image:: https://pepy.tech/badge/pymde/week
-   :target: https://pepy.tech/project/pymde
+.. image:: https://pepy.tech/badge/pyshinymde/week
+   :target: https://pepy.tech/project/pyshinymde
    :alt: Weekly Downloads
 
 
 .. image:: https://img.shields.io/badge/Maintained%3F-yes-green.svg
-   :target: https://GitHub.com/Nelson-Gon/pymde/graphs/commit-activity
+   :target: https://GitHub.com/Nelson-Gon/pyshinymde/graphs/commit-activity
    :alt: Maintenance
 
 
-.. image:: https://img.shields.io/github/last-commit/Nelson-Gon/pymde.svg
-   :target: https://github.com/Nelson-Gon/pymde/commits/main
+.. image:: https://img.shields.io/github/last-commit/Nelson-Gon/pyshinymde.svg
+   :target: https://github.com/Nelson-Gon/pyshinymde/commits/main
    :alt: GitHub last commit
 
 
-.. image:: https://img.shields.io/github/issues/Nelson-Gon/pymde.svg
-   :target: https://GitHub.com/Nelson-Gon/pymde/issues/
+.. image:: https://img.shields.io/github/issues/Nelson-Gon/pyshinymde.svg
+   :target: https://GitHub.com/Nelson-Gon/pyshinymde/issues/
    :alt: GitHub issues
 
 
-.. image:: https://img.shields.io/github/issues-closed/Nelson-Gon/pymde.svg
-   :target: https://GitHub.com/Nelson-Gon/pymde/issues?q=is%3Aissue+is%3Aclosed
+.. image:: https://img.shields.io/github/issues-closed/Nelson-Gon/pyshinymde.svg
+   :target: https://GitHub.com/Nelson-Gon/pyshinymde/issues?q=is%3Aissue+is%3Aclosed
    :alt: GitHub issues-closed
 
 
-Welcome to ``pymde``. 
+Welcome to ``pyshinymde``. 
 
 Installation Guide
 ==================
 
 .. code-block:: shell
 
-   pip install pymde
+   pip install pyshinymde
 
 Currently implemented features
 ==============================
 
-``pymde`` currently does the following:
+``pyshinymde`` currently does the following:
 
 Features that need further attention
 ====================================
