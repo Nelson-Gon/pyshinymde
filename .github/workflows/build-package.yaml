@@ -1,0 +1,45 @@
+name: Test-Package
+
+on:
+  push:         {branches: [main, dev]}
+  pull_request: {branches: [main, dev]}
+
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+          python-version: ${{ matrix.python-version }}
+
+
+    - name: Install package dependencies
+      run: |
+       python -m pip install --upgrade pip setuptools wheel
+
+    - name: Install package
+      run: pip install -e . 
+
+    - name: Upload reports to codecov
+      # env:
+      #   CODECOV_TOKEN: ${{secrets.CODECOV_TOKEN}}
+      # Only use the above if running in a private repository 
+      run: |
+       python3 -m pytest --cov-report term --cov-report xml:coverage.xml --cov=our_project
+       curl -Os https://uploader.codecov.io/latest/linux/codecov
+       chmod +x codecov 
+       ./codecov -t ${CODECOV_TOKEN} -R $(realpath "$(pwd)"/..) -f "coverage.xml"
+
+    - name: Test Script Mode
+      run: python -m our_project -t "Hello World Project"
+    - name: Build Docker image 
+      run: docker build . --file Dockerfile -t latest && docker ps

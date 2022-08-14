@@ -1,0 +1,12 @@
+comment: false
+codecov:
+       token: # add codecov token here, only necessary for private repos
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 5% # set target threshold for "passing" coverage checks 
+    patch:
+      default:
+      enabled: false
