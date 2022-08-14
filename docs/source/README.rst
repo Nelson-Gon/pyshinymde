@@ -91,3 +91,10 @@ Features that need further attention
 ====================================
 
 We intend to work on the following in the future:
+
+
+* 
+  [ ] Rename the project to something else 
+
+* 
+  [ ] Better handling of ``None`` for example if no file path exists, similar to ``req`` in ``shiny`` for R. 
