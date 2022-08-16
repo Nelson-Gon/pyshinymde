@@ -11,7 +11,7 @@ with open(reqs_file, "r") as input_file:
           install_requires_list.append(line.rstrip())
 
 
-from our_project.version import __version__
+from pyshinymde.version import __version__
 
 link_to_use = "https://github.com/Nelson-Gon/pyshinymde/archive/refs/tags/v"+__version__+".zip"
 setup(name='project',
